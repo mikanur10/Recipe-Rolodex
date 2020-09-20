@@ -1,6 +1,6 @@
 ## Recipe Rolodex 
 
-## Project Description
+## Description
 
 Recipe Rolodex is a website where users can search for any dish and return a recipe and image of the dish. 
 
@@ -77,7 +77,7 @@ http://www.recipepuppy.com/api/.
 }
 ```
 
-## Wireframes
+## Wireframe
 
 https://www.figma.com/file/W1HXtNdRRg2s1hMuPDYGxY/Untitled?node-id=0%3A1
 
@@ -105,15 +105,15 @@ The above wireframe depicts a single page website with a header, containing the 
 |  Day | Deliverable | Status
 |---|---| ---|
 |Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Sept 21| Project Approval | Incomplete
-|Sept 22| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Sept 21| Project Approval, Core Application Structure (HTML, CSS, JavaScript) | Incomplete
+|Sept 22| Core Application Structure (HTML, CSS, JavaScript cont'd.), | Incomplete
 |Sept 23| MVP | Incomplete
 |Sept 24| Post MVP/Styling | Incomplete
 |Sept 25| Presentations | Incomplete
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+https://docs.google.com/document/d/1RSHjwyk2Qi2OBm26qjt-d5fVV_WpCxaeqRhRWdA-570/edit?usp=sharing
 
 ## Timeframes
 
