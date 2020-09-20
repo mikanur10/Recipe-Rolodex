@@ -86,21 +86,21 @@ The above wireframe depicts a single page website with a header, containing the 
 ### MVP/PostMVP
 
 #### MVP 
-- Retrieve data from the recipe puppy API
+- Use HTML, CSS and JavaScript to create the website
+- Use AXIOS to retrieve and display data from the recipe puppy API on the DOM
 - Display data on the webpage
-- structure the page according to the linked wireframe above
+- structure the page according to the linked wireframe above, utilizing CSS and Flex Box
 - Create a search bar and submit button that display the recipes below
 - When searched, display the image and recipe 
 - when a new search is initiated, delete the existing recipe and image
+- Implement responsive design using a media query
+- Deploy the site
 
 #### PostMVP  
-
+- Add an animation during the loading period, which is after submit is pushed and before the content loads
+- Create a second randomization button, which, when clicked, will generate a random recipe for the user instead of a specified recipe
 
 ## Project Schedule
-
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
 
 |  Day | Deliverable | Status
 |---|---| ---|
