@@ -9,31 +9,31 @@ button.addEventListener('click', async () => {
   renderList(response.data.results)
 });
 
-const recipeDisplay = document.querySelector('.results-list'); //grabs .movie-list class when we want to make our movie list
+const recipeDisplay = document.querySelector('.results-list');
 
-const renderList = recipes => { //function to run through all movies that appear in api search
-  recipes.forEach(recipe => { //loop to go through each movie
-    const recipeContainer = document.createElement('div');// div container for all movies from search
-    recipeContainer.className = 'recipe-container';//gives container class name 
+const renderList = recipes => {
+  recipes.forEach(recipe => {
+    const recipeContainer = document.createElement('div');
+    recipeContainer.className = 'recipe-container';
 
-    const title = document.createElement('h3');
+    const title = document.createElement('h2');
     title.innerHTML = recipe.title;
-    recipeContainer.appendChild(title);//creates h3 element that takes movie's title from api db and adds to browser
+    recipeContainer.appendChild(title);
 
-    if (recipe.thumbnail != " ") {
+    if (recipe.thumbnail != "") {
       const image = document.createElement('img');
       image.setAttribute('src', recipe.thumbnail);
-      recipeContainer.appendChild(image);// creates image element that takes movies posters from api and adds to browser
+      recipeContainer.appendChild(image);
     }
 
     const ingredients = document.createElement('p');
     ingredients.innerHTML = recipe.ingredients;
-    recipeContainer.appendChild(ingredients);// creates an image element that takes the movie poster from api and adds to browser
+    recipeContainer.appendChild(ingredients);
 
     const recipeLink = document.createElement('p');
     recipeLink.innerHTML = recipe.href;
     recipeContainer.appendChild(recipeLink);
 
-    recipeDisplay.appendChild(recipeContainer);//takes finished list and adds to div container
+    recipeDisplay.appendChild(recipeContainer);
   })
 }
