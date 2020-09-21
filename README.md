@@ -123,13 +123,18 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| proposal and approval | H | 1hr| 2hr  |  |
+| creating HTML | H | 1hr|  |  |
+| basic CSS | H | 2hrs|  |  |
+|flexbox styling | H | 3hrs|  |  |
+| API fetch | H | 1hr| | |
+| creating event listeners | H | 3hrs|  |  |
+| dynamic HTML | H | 3hrs|  |  |
+| advanced CSS | H | 3hrs|  |  |
+| animation | L | 3hrs| |  |
+| getting second API | L | 2hrs| |  |
+| randomization| L | 3hrs|  |  |
+| Total | H | 25hrs|  |  |
 
 ## Code Snippet
 
