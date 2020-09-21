@@ -1,4 +1,4 @@
-Access - Control - Allow - Origin: *
+Access - Control - Allow - Origin *
   
 const input = document.querySelector('#blank');
 const button = document.querySelector('#search');
