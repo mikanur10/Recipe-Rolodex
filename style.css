@@ -4,7 +4,9 @@ body {
 }
 
 header {
-	padding: 30px 50px;
+  padding: 30px 50px;
+  font-family: 'Poller One', cursive;
+  font-size: 50px;
 }
 
 img {
@@ -21,8 +23,12 @@ button {
   border-radius: 16%;
 }
 
+h3{
+
+}
+
 .search-section {
-  
+  margin: 40px;
 }
 
 .results {
