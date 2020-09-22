@@ -91,7 +91,7 @@ The above wireframe depicts a single page website with a header, containing the 
 - Display data on the webpage
 - structure the page according to the linked wireframe above, utilizing CSS and Flex Box
 - Create a search bar and submit button that display the recipes below
-- When searched, display the image and recipe 
+- When searched, display the title, image, ingredients and recipe link
 - when a new search is initiated, delete the existing recipe and image
 - Implement responsive design using a media query
 - Deploy the site
@@ -124,12 +124,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | proposal and approval | H | 1hr| 2hr  |  |
-| creating HTML | H | 1hr|  |  |
-| basic CSS | H | 2hrs|  |  |
-|flexbox styling | H | 3hrs|  |  |
-| API fetch | H | 1hr| | |
-| creating event listeners | H | 3hrs|  |  |
-| dynamic HTML | H | 3hrs|  |  |
+| creating HTML | H | 1hr| 1hr |  |
+| basic CSS | H | 2hrs| 2hrs |  |
+|flexbox styling | H | 3hrs| 1 hr |  |
+| API fetch | H | 1hr| 3hrs| |
+| creating event listeners | H | 1hr|  |  |
+| rendering list | H | 3hrs| 3hrs |  |
 | advanced CSS | H | 3hrs|  |  |
 | animation | L | 3hrs| |  |
 | getting second API | L | 2hrs| |  |
