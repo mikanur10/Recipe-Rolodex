@@ -24,8 +24,10 @@ button {
   border-radius: 16%;
 }
 
-h3{
-
+section {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 footer {

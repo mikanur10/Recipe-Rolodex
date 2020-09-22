@@ -1,3 +1,9 @@
+// function removeList() {
+//   const oldList = document.querySelector('recipe-container')
+//   while (oldList.lastChild) {
+//     oldList.removeChild(oldList.lastChild)
+//   }
+// }
 
 const input = document.querySelector('#blank')
 const button = document.querySelector('#search');
@@ -10,6 +16,7 @@ button.addEventListener('click', async () => {
 });
 
 const recipeDisplay = document.querySelector('.results-list');
+
 
 const renderList = recipes => {
   recipes.forEach(recipe => {
