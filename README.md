@@ -128,7 +128,7 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | basic CSS | H | 2hrs| 2hrs |  |
 |flexbox styling | H | 3hrs| 1 hr |  |
 | API fetch | H | 1hr| 3hrs| |
-| creating event listeners | H | 1hr|  |  |
+| creating event listeners | H | 1hr| 1hr |  |
 | rendering list | H | 3hrs| 3hrs |  |
 | advanced CSS | H | 3hrs|  |  |
 | animation | L | 3hrs| |  |
