@@ -1,10 +1,3 @@
-// function removeList() {
-//   const oldList = document.querySelector('recipe-container')
-//   while (oldList.lastChild) {
-//     oldList.removeChild(oldList.lastChild)
-//   }
-// }
-
 const input = document.querySelector('#blank')
 const button = document.querySelector('#search');
 
@@ -37,10 +30,17 @@ const renderList = recipes => {
     ingredients.innerHTML = recipe.ingredients;
     recipeContainer.appendChild(ingredients);
 
-    const recipeLink = document.createElement('p');
+    const recipeLink = document.createElement('a');
     recipeLink.innerHTML = recipe.href;
+    recipeLink.setAttribute("href", "styles.css");
     recipeContainer.appendChild(recipeLink);
 
     recipeDisplay.appendChild(recipeContainer);
   })
 }
+// function removeList() {
+//   const oldList = document.querySelector('recipe-container')
+//   while (oldList.lastChild) {
+//     oldList.removeChild(oldList.lastChild)
+//   }
+// }

@@ -32,17 +32,29 @@ justify-content: space-between;
 
 footer {
 background-color: #D9D992;
+height: 30px;
+padding-top: 15px;
+position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+h3 {
+font-family: 'Poller One', cursive;
+font-size: 15px;
 }
 
 .search-section {
   margin: 40px;
+  
 }
 
 .results {
-
+  border: 3px solid black;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 400px) {
 footer{
   display: none;
   }
