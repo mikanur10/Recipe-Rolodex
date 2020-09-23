@@ -1,3 +1,4 @@
+// { "headers": { "Access-Control-Allow-Origin": "*" } })
 const input = document.querySelector('#blank')
 const button = document.querySelector('#search');
 
@@ -12,13 +13,14 @@ const recipeDisplay = document.querySelector('.results-list');
 
 
 const renderList = recipes => {
+  removeList()
   recipes.forEach(recipe => {
     const recipeContainer = document.createElement('div');
     recipeContainer.className = 'recipe-container';
 
     const title = document.createElement('h2');
     title.innerHTML = recipe.title;
-    recipeContainer.appendChild(title);
+    recipeContainer.appendChild(title).style.border = '3px solid black';
 
     if (recipe.thumbnail != "") {
       const image = document.createElement('img');
@@ -28,19 +30,19 @@ const renderList = recipes => {
 
     const ingredients = document.createElement('p');
     ingredients.innerHTML = recipe.ingredients;
-    recipeContainer.appendChild(ingredients);
+    recipeContainer.appendChild(ingredients).style.font = "bold 20px serif";
 
     const recipeLink = document.createElement('a');
     recipeLink.innerHTML = recipe.href;
-    recipeLink.setAttribute("href", "styles.css");
-    recipeContainer.appendChild(recipeLink);
+    recipeLink.setAttribute("href", recipe.href);
+    recipeContainer.appendChild(recipeLink).style.font = "bold 20px serif";
 
     recipeDisplay.appendChild(recipeContainer);
   })
 }
-// function removeList() {
-//   const oldList = document.querySelector('recipe-container')
-//   while (oldList.lastChild) {
-//     oldList.removeChild(oldList.lastChild)
-//   }
-// }
+function removeList() {
+  const oldList = recipeDisplay
+  while (oldList.lastChild) {
+    oldList.removeChild(oldList.lastChild)
+  }
+}

@@ -32,8 +32,8 @@ justify-content: space-between;
 
 footer {
 background-color: #D9D992;
-height: 30px;
-padding-top: 15px;
+height: 25px;
+padding-top: 12px;
 position: fixed;
   left: 0;
   bottom: 0;
@@ -47,10 +47,9 @@ font-size: 15px;
 
 .search-section {
   margin: 40px;
-  
 }
 
-.results {
+.results-list {
   border: 3px solid black;
 }
 
