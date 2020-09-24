@@ -4,9 +4,11 @@ body {
 }
 
 header {
-  padding: 30px 50px;
+  padding: 30px;
   font-family: 'Poller One', cursive;
   font-size: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  border: 3px solid #D56237;
 }
 
 img {
@@ -14,6 +16,8 @@ img {
   border-radius: 50%;
   border: 3px solid black;
   margin-bottom: 40px;
+  margin-top: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 button {
@@ -22,22 +26,15 @@ button {
   background-color: #D56237;
   padding: 8px;
   border-radius: 16%;
-  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 button:hover {
   background-color: #4CAF50;
   color: white;
-}
-
-button {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-}
-
-button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
-                                                                                    
+
 input {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }

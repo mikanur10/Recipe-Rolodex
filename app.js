@@ -21,11 +21,14 @@ const renderList = recipes => {
     const title = document.createElement('h2');
     title.innerHTML = recipe.title;
     recipeContainer.appendChild(title).style.border = '3px solid black';
+    title.style.backgroundColor = '#D56237';
+    title.style.boxShadow = '0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)';
 
     if (recipe.thumbnail != "") {
       const image = document.createElement('img');
       image.setAttribute('src', recipe.thumbnail);
       recipeContainer.appendChild(image);
+      image.style.boxShadow = '0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)';
     }
 
     const ingredients = document.createElement('p');
