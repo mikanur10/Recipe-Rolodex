@@ -132,9 +132,9 @@ https://docs.google.com/document/d/1RSHjwyk2Qi2OBm26qjt-d5fVV_WpCxaeqRhRWdA-570/
 | creating recipe link element | H | 2hr| 2hr | 2hr |
 | creating function to remove list| H | 2hr| 2hr | 2hr |
 | advanced CSS | H | 3hrs| 3hrs | 3hrs |
-| animation | L | 3hrs| 1hr | |
-| getting second API | L | 2hrs| |  |
-| randomization| L | 3hrs| 1hr |  |
+| animation | L | 3hrs| 1hr | 1hr |
+| getting second API | L | 2hrs| 0 | 0 |
+| randomization| L | 3hrs| 1hr | 1hr |
 | Total | H | 31hrs| 29hrs | 29hrs |
 
 ## Code Snippet
