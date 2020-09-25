@@ -117,31 +117,39 @@ https://docs.google.com/document/d/1RSHjwyk2Qi2OBm26qjt-d5fVV_WpCxaeqRhRWdA-570/
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| proposal and approval | H | 1hr| 2hr  |  |
-| creating HTML | H | 1hr| 1hr |  |
-| basic CSS | H | 2hrs| 2hrs |  |
-|flexbox styling | H | 3hrs| 1 hr |  |
-| API fetch | H | 1hr| 3hrs| |
-| creating event listeners | H | 1hr| 1hr |  |
-| rendering list | H | 3hrs| 3hrs |  |
-| advanced CSS | H | 3hrs|  |  |
-| animation | L | 3hrs| |  |
+| proposal and approval | H | 3hr| 3hr  | 3hr |
+| creating HTML | H | 1hr| 1hr | 1hr |
+| basic CSS | H | 2hrs| 2hrs | 2hrs |
+|flexbox styling | H | 3hrs| 1 hr | 1 hr |
+| API fetch | H | 1hr| 2hrs| 2hrs |
+| creating event listener | H | 1hr| 1hr | 1hr |
+| creating recipe container | H | 2hr| 2hr | 2hr |
+| creating title element | H | 2hr| 2hr | 2hr |
+| creating image element | H | 2hr| 2hr | 2hr |
+| creating ingredients element | H | 2hr| 2hr | 2hr |
+| creating recipe link element | H | 2hr| 2hr | 2hr |
+| creating function to remove list| H | 2hr| 2hr | 2hr |
+| advanced CSS | H | 3hrs| 3hrs | 3hrs |
+| animation | L | 3hrs| 1hr | |
 | getting second API | L | 2hrs| |  |
-| randomization| L | 3hrs|  |  |
-| Total | H | 25hrs|  |  |
+| randomization| L | 3hrs| 1hr |  |
+| Total | H | 31hrs| 29hrs | 29hrs |
 
 ## Code Snippet
 
-brief code snippet of functionality and a brief description to be placed here
+An example of functional code with dynamic styling
 
 ```
+ if (recipe.thumbnail != "") {
+      const image = document.createElement('img');
+      image.setAttribute('src', recipe.thumbnail);
+      recipeContainer.appendChild(image);
+      image.style.boxShadow = '0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)';
+    }
 
 ```
 
 ## Change Log
+- Changed wireframe and parameters to include a recipe link instead of the written out recipe, due to the limitations of the API. 
