@@ -104,10 +104,10 @@ The above wireframe depicts a single page website with a header, containing the 
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|Sept 21| Project Approval, Core Application Structure (HTML, CSS, JavaScript) | Incomplete
-|Sept 22| Core Application Structure (HTML, CSS, JavaScript cont'd.), | Incomplete
-|Sept 23| MVP | Incomplete
+|Sept 18-21| Prompt / Wireframes / Priority Matrix / Timeframes | complete
+|Sept 21| Project Approval, Core Application Structure (HTML, CSS, JavaScript) | complete
+|Sept 22| Core Application Structure (HTML, CSS, JavaScript cont'd.), | complete
+|Sept 23| MVP | complete
 |Sept 24| Post MVP/Styling | Incomplete
 |Sept 25| Presentations | Incomplete
 
